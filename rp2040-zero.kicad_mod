@@ -1538,7 +1538,7 @@
   (pad "l" thru_hole oval (at 2.54 9.16 90) (size 2.5 1.5) (drill 1 (offset -0.5 0)) (layers "*.Cu" "*.Mask") (tstamp 7d6cdc46-a888-4ca5-a6ef-94a9aebe8efc))
   (pad "l" smd rect (at 2.54 11 90) (size 2 0.3) (layers "F.Cu")
     (clearance 0.1) (zone_connect 0) (tstamp 8d943266-9427-491a-912c-45ae2f18d1f8))
-  (pad "l" smd rect (at 2.54 11 90) (size 2 0.3) (layers "B.Cu" "F.SilkS")
+  (pad "l" smd rect (at 2.54 11 90) (size 2 0.3) (layers "B.Cu")
     (clearance 0.1) (zone_connect 0) (tstamp 0d164a12-606c-4e90-bf66-e5c824e9c5e2))
   (pad "l" smd custom (at 2.54 11.817) (size 0.1 0.1) (layers "F.Cu" "F.Mask")
     (clearance 0.1) (zone_connect 0) (thermal_bridge_angle 45)
@@ -1763,7 +1763,7 @@
     ) (tstamp 5bc8c2c6-854b-473b-8df3-9bee11c70c4a))
   (pad "r" smd rect (at 6.5 -1) (size 2 0.3) (layers "F.Cu")
     (clearance 0.1) (zone_connect 0) (tstamp 4932f72f-5c5d-455f-8df2-302fd4b6ff93))
-  (pad "r" smd rect (at 6.5 -1) (size 2 0.3) (layers "B.Cu" "F.SilkS")
+  (pad "r" smd rect (at 6.5 -1) (size 2 0.3) (layers "B.Cu")
     (clearance 0.1) (zone_connect 0) (tstamp b06f2b8a-c719-4124-b76c-aa8f3ed4988b))
   (pad "r" thru_hole oval (at 7.62 -1 180) (size 2.5 1.5) (drill 1 (offset -0.5 0)) (layers "*.Cu" "*.Mask") (tstamp 15ad81c4-ac1b-4cbf-833d-f997c7dd05ee))
   (pad "s" smd custom (at 5.433 -3.54 270) (size 0.1 0.1) (layers "F.Cu" "F.Mask")
@@ -2100,6 +2100,12 @@
       d40dcf13-f5f6-4b50-afab-25954db440b7
     )
   )
+  (group "" (id 7fa79eee-fe54-4ced-800e-c9c1b34bd2fe)
+    (members
+      4932f72f-5c5d-455f-8df2-302fd4b6ff93
+      b06f2b8a-c719-4124-b76c-aa8f3ed4988b
+    )
+  )
   (group "" (id 8155385a-4a40-4ec2-882a-268a6b134c5a)
     (members
       4cb7c17e-43f7-4c05-a9a4-f964745af37e
@@ -2158,6 +2164,12 @@
     (members
       749f3df2-5347-4b61-9f81-98f63c137847
       7f46fec4-5f30-4bd2-8e57-aae474e6bf58
+    )
+  )
+  (group "" (id df088c49-970c-4dcf-bb99-a85182daa2c5)
+    (members
+      0d164a12-606c-4e90-bf66-e5c824e9c5e2
+      8d943266-9427-491a-912c-45ae2f18d1f8
     )
   )
   (group "" (id e627f927-f1b4-4c00-b1f7-8c6ac3cdbffb)
@@ -2390,18 +2402,6 @@
       a2b3e5a7-300e-4b85-8c70-e7f0aff435f7
       b6a4b2ae-0e38-43bb-b902-d6de800a56a4
       bf0809e5-c015-4bc1-9100-b868e2985680
-    )
-  )
-  (group "" (id 7fa79eee-fe54-4ced-800e-c9c1b34bd2fe)
-    (members
-      4932f72f-5c5d-455f-8df2-302fd4b6ff93
-      b06f2b8a-c719-4124-b76c-aa8f3ed4988b
-    )
-  )
-  (group "" (id df088c49-970c-4dcf-bb99-a85182daa2c5)
-    (members
-      0d164a12-606c-4e90-bf66-e5c824e9c5e2
-      8d943266-9427-491a-912c-45ae2f18d1f8
     )
   )
 )
